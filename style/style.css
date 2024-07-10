@@ -36,6 +36,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin:50px auto ;
+border:1px dashed rgba(13, 19, 33, 0.281) ;
+
 }
 /* why wev development start */
 .why-web-development{
@@ -157,16 +159,29 @@ justify-content: space-between;
 }
 .jhonker-mahbub h3{
     font-size: 32px;
-font-weight: 800;
+font-weight: 800; 
 }
 .video {
    margin: 50px 0px;
    width: 1140px;
 height: 614px;
 border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px; 
 }
 .video iframe{
     padding:33px 33px ;
+    border: 1px solid white;
+    border-radius: 16px;   
 }
 
 /* section jonkar mahbub end */
+/* section corrent target start */
+.text h3{
+    font-size: 32px;
+    font-weight: 800; 
+}
+.my-corrent-target .text{
+    text-align: center;
+    height: 113px;
+}
+/* section corrent target end */
